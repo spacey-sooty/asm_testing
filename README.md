@@ -11,16 +11,16 @@ The Assembly is our some simple Assembly functions I have written.
 Simple Commands
 ---------------
 
-`make compile`
+`make compile`  
 This compiles all of the code; Assembly, Rust and C.
 
-`make run`
+`make run`  
 This runs all of the code.
 
-`make clean`
+`make clean`  
 This cleans the output directories; `build` and `target`.
 
-`make test`
+`make test`  
 This tests the code.
 Currently only the Rust code is tested.
 
