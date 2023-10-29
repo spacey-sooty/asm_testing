@@ -20,3 +20,7 @@ This runs all of the code.
 `make clean`
 This cleans the output directories; `build` and `target`.
 
+`make test`
+This tests the code.
+Currently only the Rust code is tested.
+
