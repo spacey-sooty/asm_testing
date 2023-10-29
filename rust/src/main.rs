@@ -6,9 +6,9 @@ extern "C" {
 fn main() {
     let sum = unsafe { add(1, 2) };
 
-    println!("Sum = {}", sum);
+    println!("Sum = {}\n", sum);
 
     let sub = unsafe { minus(2, 1) };
 
-    println!("Sub = {}", sub);
+    println!("Sub = {}\n", sub);
 }
