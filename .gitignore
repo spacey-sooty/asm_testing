@@ -1,7 +1,7 @@
 /target
 /build
 
-Cargo.toml
+Cargo.lock
 
 *.o
 *.out

@@ -12,8 +12,7 @@ compile:
 	chmod +x build/main
 
 clean:
-	rm *.o
-	rm *.out
+	rm Cargo.lock
 	rm target -rf
 	rm build -rf
 
