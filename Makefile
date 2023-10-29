@@ -22,3 +22,7 @@ run: compile
 	echo "C Output :"
 	./build/main
 	
+test:
+	cargo test
+	# TODO C Tests
+
