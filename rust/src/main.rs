@@ -12,3 +12,20 @@ fn main() {
 
     println!("Sub = {}\n", sub);
 }
+
+#[cfg(test)]
+mod tests {
+    use super::{add, minus};
+
+    #[test]
+    fn assert_add() {
+        assert_eq!(unsafe { add(1, 2) }, 3);
+        assert_eq!(unsafe { add(1, 4) }, 5);
+    }
+
+    #[test]
+    fn assert_minus() {
+        assert_eq!(unsafe { minus(1, 2) }, 1);
+        assert_eq!(unsafe { minus(1, 0) }, -1);
+    }
+}
